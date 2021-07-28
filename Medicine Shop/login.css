@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('bg\ \(6\).jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: royalblue; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(172, 79, 79);
+    align-items: center;
+    height: 8vh;
+    /* line-height: 50px;/ */
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul li{
+    margin: 0px 60px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:rgb(247, 223, 239);
+    font-weight: 600;
+}
+.nav ul li a:hover{
+    background-color: rgb(80, 145, 7);
+    color:rgb(28, 27, 29);
+    padding: 10px 40px;
+}
+
+.nav ul li button{
+            outline:none;
+            border:none;
+            background-color:rgb(4, 63, 255);
+            line-height: 3;
+            width: 100px;
+            color:white;
+            border-radius: 5px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav ul li button:hover{
+    cursor: pointer;
+    background-color: rgb(151, 148, 148);
+    transition: all 0.5s ease-in;
+}
+.form-wrap {
+    max-width: 30%;
+    background:linear-gradient(rgba(245, 245, 245, 0.3),rgba(19, 17, 17, 0.3));
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 5%;
+    line-height: 3;
+    color:white;
+    box-shadow: 10px 13px 15px rgb(12, 12, 12);
+}
+.form-wrap input{
+    display: block;
+    margin: 0 auto;
+    outline:none;
+    border:none;
+    width:50%;
+    line-height: 2;
+}
+.form-wrap h2{
+    color:red;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.form-wrap button{
+    outline:none;
+    border:none;
+    text-decoration: none;
+   
+    margin-top: 10px;
+    width:30%;
+    height: 40px;
+    margin-bottom: 10px;
+    color:rgb(34, 32, 32);
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form-wrap button:hover{
+     background-color:rgb(252, 149, 32);
+    padding: 10px 20px;
+}
+.form-wrap footer a{
+    color:rgb(223, 217, 217);
+    text-decoration: none;
+}
+.form-wrap footer a:hover{
+    color:red;
+}
